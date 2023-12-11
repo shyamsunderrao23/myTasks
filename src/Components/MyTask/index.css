@@ -1,0 +1,185 @@
+* {
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+}
+
+.create-task-container {
+  background-color: #131213;
+  max-height: 200vh;
+  width: 50vh;
+  max-width: 70vh;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 30px;
+}
+
+.heading {
+  color: #f3aa4e;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.task-input {
+  padding: 10px;
+  min-width: 140px;
+  border-radius: 3px;
+  color: #1a171d;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.tags-label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.input-select-tags {
+  padding: 10px;
+  min-width: 140px;
+  border-radius: 3px;
+  color: #1a171d;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  margin-bottom: 35px;
+}
+
+.task-button {
+  background-color: #f3aa4e;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #f3aa4e;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  align-self: center;
+  width: 100px;
+}
+
+.tags-list-container {
+  background-color: #000;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  max-height: 200vh;
+  width: 150vh;
+  max-width: 85vh;
+  padding: 20px;
+  padding-top: 45px;
+}
+.tags-heading {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
+
+.ul-tags-list {
+  display: flex;
+  padding: 0px;
+  padding-left: 0px;
+}
+.lis-tags-list {
+  list-style: none;
+  padding: 4px;
+  margin: 5px;
+}
+
+.tags-button {
+  color: #f1f5f9;
+  border: 1px solid #f3aa4e;
+  padding: 8px;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tasks-heading {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+}
+.ul-tasks-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+.li-tasks-list {
+  list-style: none;
+  color: #f8f8f8;
+  font-weight: 500;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131213;
+  border: 1px solid #131213;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.input-tasks {
+  color: #f1f5f9;
+  font-weight: 500;
+}
+
+.input-btn {
+  color: #000;
+  border-radius: 22px;
+  background-color: #f3aa4e;
+  border: #f3aa4e;
+  font-weight: 500;
+  padding: 10px;
+  align-self: center;
+}
+.no-task-view {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 27px;
+  align-self: center;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.active {
+  background-color: #f3aa4e;
+  border: 1px solid #f3aa4e;
+}
